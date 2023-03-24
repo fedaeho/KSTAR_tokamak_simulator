@@ -1,0 +1,12 @@
+[flake8]
+ignore = 
+    # F401 : module imported but unused
+    F401,
+    # F821 : undefined name "args"
+    F821,
+    # W503 : line break before binary operator
+    W503,
+    # E203 : whitespace before ‘:’ -> clash with black
+    E203,
+    # E501 : line too long (82 > 79 characters)
+    E501
